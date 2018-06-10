@@ -1,0 +1,102 @@
+$primary: #3292a6;
+$primary_overlay:rgba(50,146,166,0.8);
+$teal:teal;
+$theme-colors: (
+  "primary": teal,
+  "danger": #ff4136
+);
+
+body{
+  margin-top:105px;
+  // we wanna push the body below the nav bar
+}
+.navbar{
+	box-shadow:2px 2px 5px $primary;
+	opacity: 0.9;
+	background:#fff;
+
+.nav-item{
+	font-size: 1.4rem;
+	padding-right: 20px;
+}
+}
+
+#newsletter{
+	.teal{
+		background-color:teal;
+		border:1px red solid;
+		
+	}
+}
+#showcase{
+	position: relative;
+	background: url('../ass/img/mountains.jpg');
+    min-height: 600px;
+
+
+    .primary-overlay{
+
+    	background:$primary_overlay;
+    	position: absolute;
+    	top:0;
+    	left:0;
+    	width: 100%;
+    	height: 100%;
+    }
+    // I added this  code for customzing perposes ,unfortunately it didnt work
+
+    // .btn{
+    // 	background-color:$primary_overlay ;
+    // 	border-radius:0;
+    // 	color:#fff;
+    // }
+    // .btn:hover{
+    // 	background-color: $teal;
+    // }
+}
+
+
+    // I added this  code for customzing perposes ,unfortunately it didnt work
+// .card{
+// 	.border-primary{
+// 		border:1px solid red !important;
+// 	}
+// }
+
+
+.info-header{
+	h1{
+	color:teal;
+	}
+	width:50%;
+	margin: auto;
+	border-bottom: 1px #ddd  solid  ;
+	
+}
+.meet{
+	h1{
+	color:teal;
+	}
+	width:50%;
+	margin: auto;
+	border-bottom:1px green dotted;
+}
+#authors{
+	img{
+		margin-top: -52px;
+	}
+	.fa{
+		font-size:25px ;
+		color:green;
+	}
+ .card:hover{
+    background:$primary;
+    color:#fff;
+
+    .fa{
+      color:#fff;
+    }
+  }
+
+
+}
